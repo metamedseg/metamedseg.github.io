@@ -1,1 +1,108 @@
-MetaMedSeg
+<!DOCTYPE html>
+<html lang="en">
+
+<body>
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero">
+      <h1>MetaMedSeg: Volumetric Meta-learning for Few-Shot Organ Segmentation</h1>
+      <h2>Accepted at DART Workshop at MICCAI 2022</h2>
+      <h2><p align="center" class="center_text" id="authors">
+    <a target="_blank" href="http://campar.in.tum.de/Main/AzadeFarshad">Azade Farshad</a> *&nbsp;&nbsp;&nbsp;&nbsp;
+    <a target="_blank">Anastasia Makarevich</a>&nbsp;*&nbsp;&nbsp;&nbsp;
+    <a target="_blank">Vasileios Belagniannis</a>&nbsp;&nbsp;&nbsp;&nbsp;
+    <a target="_blank" href="http://campar.in.tum.de/Main/NassirNavab">Nassir Navab</a>&nbsp;&nbsp;&nbsp;&nbsp;
+  </ul>
+  </p><p class="center_text" align="center"> <b>
+    Technical University of Munich&nbsp;&nbsp;&nbsp;&nbsp; Otto von Guericke University Magdeburg&nbsp;&nbsp;&nbsp;&nbsp;</br></b>
+  </p></h2>
+  
+  <h2><p class="center_text" align="center">
+  * The first two authors contributed equally.
+  </p>
+  </h2>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="About">
+      <div class="container">
+        
+        <div class="row content">
+        <div class="col-lg-6">
+          <h2>Abstract</h2>
+          <p>The lack of sufficient annotated image data is a common issue in medical image segmentation. For some organs and densities, the annotation may be scarce, leading to poor model training convergence, while other organs have plenty of annotated data. In this work, we present MetaMedSeg, a gradient-based meta-learning algorithm that redefines the meta-learning task for the volumetric medical data with the goal of capturing the variety between the slices. We also explore different weighting schemes for gradients aggregation, arguing that different tasks might have different complexity and hence, contribute differently to the initialization. We propose an importance-aware weighting scheme to train our model. In the experiments, we evaluate our method on the medical decathlon dataset by extracting 2D slices from CT and MRI volumes of different organs and performing semantic segmentation. The results show that our proposed volumetric task definition leads to up to 30% improvement in terms of IoU compared to related baselines. The proposed update rule is also shown to improve the performance for complex scenarios where the data distribution of the target organ is very different from the source organs.</p>
+        </div>
+        </div>
+        
+
+	<h3 class="w3-left-align">Paper</h3>
+	    DART 2022: Domain Adaptation and Representation Transfer<br>
+	    Link to the Paper | <a href="https://link.springer.com/chapter/10.1007/978-3-031-16852-9_5"></a>
+	    <pre class="w3-panel w3-leftbar w3-light-grey" style="white-space: pre-wrap; font-family: monospace; font-size: 14px">
+	  @inproceedings{farshad2022metamedseg,
+  title={MetaMedSeg: Volumetric Meta-learning for Few-Shot Organ Segmentation},
+  author={Farshad, Azade and Makarevich, Anastasia and Belagiannis, Vasileios and Navab, Nassir},
+  booktitle={MICCAI Workshop on Domain Adaptation and Representation Transfer},
+  pages={45--55},
+  year={2022},
+  organization={Springer}
+}</pre>
+
+	</div>
+      </div>
+    </section><!-- End About Section -->															
+	<!-- ======= Code Section ======= -->
+    <section id="code" class="Code">
+      <div class="container">
+
+        <div class="section-title">
+        <h2>Source Code</h2>
+				  
+        <div class="row content">
+          
+        <div class="col-lg-6 pt-4 pt-lg-0">
+	<h3>Source Code</h3>
+	    The source code is publicly available in the following repository: <a href="https://github.com/metamedseg/Code"> Source Code </a>
+	 </div>
+  
+        </div>
+      </div>
+    </section><!-- End Code Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Contact</h2>
+          <h3>Contact <span>Us</span></h3>
+          <p>In case you have any questions or you are looking for collaborations, feel free to contact us.</p>
+        </div>
+
+        <div class="row mt-5">
+
+          <div class="col-lg-4">
+            <div class="info">
+
+              <div class="email">
+                <i class="bi bi-envelope"></i>
+                <h4>Email:</h4>
+                <p>azade.farshad@tum.de</p>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+</body>
+
+</html>
